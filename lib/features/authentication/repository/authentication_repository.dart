@@ -81,7 +81,7 @@ class AuthenticationRepository {
         userMetadata: {},
         aud: '',
         createdAt: '',
-        email: 'henry@google.com',
+        email: 'test@google.com',
       ),
     );
 
@@ -203,5 +203,5 @@ class AuthenticationRepository {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setBool(Constants.isExistAccountKey, value);
   }
-  // END TODO
+// END TODO
 }
