@@ -10,7 +10,7 @@ class Constants {
   static const String googleUserInfoScope =
       'https://www.googleapis.com/auth/userinfo.profile';
   static const String defaultName = 'Testing';
-  static const String defaultEmail = 'namanh11611@gmail.com';
+  static const String defaultEmail = 'testing@gmail.com';
   static const String termOfService =
       'https://github.com/naeemdev/flutter_starter_template';
   static const String privacyPolicy =
